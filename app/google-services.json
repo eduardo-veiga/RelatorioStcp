@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1037687340534",
+    "firebase_url": "https://relatoriostcp.firebaseio.com",
+    "project_id": "relatoriostcp",
+    "storage_bucket": "relatoriostcp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037687340534:android:7b4e3a4117d26c62915bd7",
+        "android_client_info": {
+          "package_name": "com.example.relatoriostcp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037687340534-3negktbejkauabf0mlo42gbpuiofh94l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.relatoriostcp",
+            "certificate_hash": "b1a2bdb8011552a4785ccb980cf9706fef032eaa"
+          }
+        },
+        {
+          "client_id": "1037687340534-im60vbsvi84snntipdjm9au7r1s71o4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ruS9xFInWjNiLpa_eA4CZntTkD9hYkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037687340534-im60vbsvi84snntipdjm9au7r1s71o4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

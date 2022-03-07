@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.fragment.FormularioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textoResponsavel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <EditText
+                        android:id="@+id/textResponsavel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Responsavel" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textoTalhao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <EditText
+                        android:id="@+id/textTalhao"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Local / Talhao" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textoAtividade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <EditText
+                        android:id="@+id/textAtividade"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Atividade" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textoSubAtividade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <EditText
+                        android:id="@+id/textSubAtividade"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Sub Atividade" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textoProdução"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/textProducao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="Produção Executada"
+                            android:inputType="numberDecimal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textoUnidade"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                        <EditText
+                            android:id="@+id/textUnidade"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="Unidade da Produção" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textoColaboradore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp" />
+
+                    <EditText
+                        android:id="@+id/textColaboradores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Numero Colaboradores"
+                        android:inputType="numberDecimal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+
+                                <!--
+                    <TextView
+                        android:id="@+id/textoHoraFimProd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/textHoraFimprod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Hora Fim Producao"
+                        android:inputType="time" />
+
+        -->
+                                <Button
+                                    android:id="@+id/btnHoraIni"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Inicio Produçao"
+                                    android:text="Inicio Producao" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+
+                                <!--
+                    <TextView
+                        android:id="@+id/textoHoraFimProd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/textHoraFimprod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Hora Fim Producao"
+                        android:inputType="time" />
+
+        -->
+                                <Button
+                                    android:id="@+id/BtnHoraFim"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fim Producao" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+
+                                <!--
+                    <TextView
+                        android:id="@+id/textoHoraFimProd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/textHoraFimprod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Hora Fim Producao"
+                        android:inputType="time" />
+
+        -->
+                                <Button
+                                    android:id="@+id/btnDeslocini"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Inicio do Deslocamento" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+
+                                <!--
+                    <TextView
+                        android:id="@+id/textoHoraFimProd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/textHoraFimprod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Hora Fim Producao"
+                        android:inputType="time" />
+
+        -->
+                                <Button
+                                    android:id="@+id/btnDeslocFim"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fim do Deslocamento" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+
+                                <!--
+                    <TextView
+                        android:id="@+id/textoHoraFimProd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/textHoraFimprod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Hora Fim Producao"
+                        android:inputType="time" />
+
+        -->
+                                <Button
+                                    android:id="@+id/btnAlmocoini"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Inicio do Almoço" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+
+                                <!--
+                    <TextView
+                        android:id="@+id/textoHoraFimProd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/textHoraFimprod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Hora Fim Producao"
+                        android:inputType="time" />
+
+        -->
+                                <Button
+                                    android:id="@+id/btnAlmocofim"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fim Almoco" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textoOBS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <EditText
+                        android:id="@+id/textObs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Digite Alguma Observação" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/saveButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#1B97DA"
+            android:text="Salvar"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</FrameLayout>
